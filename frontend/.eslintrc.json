@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "react-app",
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["react", "react-hooks", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "eqeqeq": ["error", "always"],
+    "no-undef": "error",
+    "no-unused-vars": "error"
+  }
+}
