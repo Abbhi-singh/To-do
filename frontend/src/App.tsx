@@ -1,7 +1,9 @@
 import './App.css';
-import Login from '../component/Login/Login';
+import Login from './component/Login/Login';
 import { ApolloProvider } from '@apollo/client/react';
-import client from '../gqlConfig';
+// import client from '../gqlConfig';
+// import client from '../gqlConfig';
+import client from './Helper/gqlConfig';
 
 function App() {
   return (
